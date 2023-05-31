@@ -1,0 +1,38 @@
+{
+    "root": ".",
+    "author": "Xiang Fan",
+    "plugins": [
+      "anchor-navigation-ex",
+      "code",
+      "disqus",
+      "splitter",
+      "toc",
+      "simple-page-toc",
+      "github",
+      "expandable-chapters-small",
+      "chapter-fold",
+      "edit-link-plus"
+    ],
+    "pluginsConfig": {
+      "anchor-navigation-ex": {
+        "showLevel": true,
+        "showGoTop": true
+      },
+      "code": {
+        "copyButtons": true
+      },
+      "disqus": {
+        "shortName": "fanxiang"
+      },
+      "simple-page-toc": {
+        "maxDepth": 3,
+        "skipFirstH1": false
+      },
+      "github": {
+        "url": "https://github.com/fanxiangs"
+      },
+      "edit-link-plus": {
+        "base": "https://github.dev/fanxiangs/cookbook-jenkins/edit/main"
+      }
+    }
+  }
